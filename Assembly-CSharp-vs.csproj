@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\LevelManager.cs" />
-     <Compile Include="Assets\QuitManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity 4.7/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.7.2/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>
