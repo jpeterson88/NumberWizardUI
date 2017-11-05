@@ -9,10 +9,18 @@ public class LevelManager : MonoBehaviour {
 	}
 	
 	public void BackToStart(){		
-		Application.LoadLevel("Start");
+		Application.LoadLevel("Game");
 	}
 	
 	public void Quit_Request(){
 		Application.Quit();
+	}
+	
+	public void WinScreen(){
+		Application.LoadLevel("Win");
+	}
+	
+	public void LoseScreen(){
+		Application.LoadLevel("Lose");
 	}
 }
